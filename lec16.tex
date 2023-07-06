@@ -57,6 +57,7 @@
 \newcommand{\suminf}{\sum_{n=1}^{\infty}}
 \newcommand{\powsum}{\sum_{n=0}^{\infty}}
 \newcommand{\G}{\Gamma}
+\newcommand{\vsp}{\vspace{2in}}
 \renewcommand{\c}{^{\mathsf{c}}}
 \newcommand{\supp}{\text{supp}}
 \newcommand{\msum}{\sum_{\abs{\alpha}\le m}}
@@ -99,7 +100,49 @@ bg= orange!5}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-  \frametitle{}
+  \frametitle{Variation of Parameters}
+  Consider the equation $y'' + y = \tan(x)$.
+  \vspace{2in}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Variation of Parameters}
+  \begin{example}
+  Solve the equation $y'' + y = \tan(x)$.
+  \end{example}
+  \vspace{2in}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Variation of Parameters}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Variation of Parameters}
+  \begin{example}
+    Solve $y'' = 2y' + y = \sin(x^2)$. You can leave the answer as a definite integral.
+  \end{example}
+  \vsp
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Wronskian Method}
+  We define the \textit{Wronskian} of two functions $y_1,y_2$ by
+  \begin{align*}
+    W(y_1,y_2) = y_1y_2' = y_2y_1'.
+  \end{align*}
+  Then
+  \begin{align*}
+    u_1 = -\int \frac{y_2f(x)}{W(y_1,y_2)} dx \text{ and } u_2 = \int \frac{y_1f(x)}{W(y_1,y_2)}dx
+  \end{align*}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Wronskian Method}
+  \begin{example}
+    Solve $2y'' + 18y + 6 \tan(3x)$
+  \end{example}
+  \vsp
 \end{frame}
 \end{document}
 
